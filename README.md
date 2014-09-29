@@ -6,14 +6,15 @@ Vagrant files for ubuntu with node.js and sails framework
 4. Modify Vagrant and bootstrap files with own needs
 
 Run vagrant with
-```bash
+```
 vagrant up
 ```
 SSH connection make like this:
-```bash
+```
 vagrant ssh
-``` or 
-```bash 
+``` 
+or 
+``` 
 ssh -i ~/.vagrant.d/insecure_private_key 127.0.0.1 -p 2222 -l vagrant
 ```
 
